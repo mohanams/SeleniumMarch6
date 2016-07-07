@@ -1,0 +1,10 @@
+Command to create a server
+
+java -jar C:\Java\Grid\selenium-server-standalone-2.47.1.jar -role hub
+
+http://localhost:4444/grid/console
+
+Command to register as node
+
+java -jar C:\Java\Grid\selenium-server-standalone-2.47.1.jar -role node -browser "browserName=internet explorer,maxInstances=20,version=10,platform=WINDOWS" -Dwebdriver.ie.driver="C:\Java\Drivers\IEDriverServer.exe" -browser "browserName=chrome,maxInstances=5,version=46,platform=WINDOWS" -Dwebdriver.chrome.driver="C:\Java\Drivers\chromedriver.exe" -browser "browserName=firefox,maxInstances=5,version=34,platform=WINDOWS" -hub http://192.168.0.101:4444/grid/register/
+

@@ -1,0 +1,19 @@
+1. https://updates.jenkins-ci.org/download/war/  ---------download
+
+place jenkins war in c drive
+
+2. java -jar jenkins.war
+
+3. localhost:8080
+
+4. Manage jenkins on left side
+
+5. Manage plugins
+
+6. Install Git client plugina and Git Plugin
+
+7.Configure system above manage plugin
+
+8. in configure we gave the path of jdk C:\Program Files\jdk1.8
+
+9.configure git path
